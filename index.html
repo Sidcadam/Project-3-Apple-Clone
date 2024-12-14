@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Apple</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <!-- For locomotive-scroll https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/ -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css"
+    />
+    <!-- Since Locomotive and ScrollTrigger don't work together, thus to merge them coopy the JS code from https://codepen.io/GreenSock/pen/ExPdqKy -->
+  </head>
+  <body>
+    <div id="main">
+      <div id="page1">
+        <video src="images and videos/Apple Vision Pro.mp4" muted loop></video>
+        <nav>
+          <h3>Vision Pro</h3>
+          <button>Notify Me</button>
+        </nav>
+        <div id="page1-bottom">
+          <h3>Introducing</h3>
+          <img src="images and videos/apple_vision_pro_logo.png" alt="" />
+        </div>
+      </div>
+      <div class="page-video" id="page2">
+        <h1>
+          The era of <br />
+          spatial computing is here.
+        </h1>
+        <video src="images and videos/Video-1.mp4" loop muted></video>
+      </div>
+      <div id="page2-part">
+        <img src="images and videos/apple_vision_pro_logo.png" alt="" />
+        <img id="AVPimg2" src="images and videos/videoframe.png" alt="" />
+        <button><i class="ri-add-line"></i>Take a closer look</button>
+      </div>
+      <div class="page-video" id="page3">
+        <h1>
+          Entertainment <br />
+
+          The ultimate theater. <br />
+          Wherever you are.
+        </h1>
+        <video src="images and videos/Video-2.mp4" loop muted></video>
+      </div>
+      <div class="page-same">
+        <div class="part">
+          <h3>
+            A new dimension for <br />
+            entertainment.
+          </h3>
+        </div>
+        <div class="part">
+          <p>
+            Apple Vision Pro can transform any room into your own personal
+            theater. Expand your movies, shows, and games to your perfect size
+            and experience them in Spatial Audio. Apple Immersive Video puts you
+            in the center of the action with mind‑blowing immersion. And with
+            more pixels than a 4K TV for each eye, you can enjoy stunning
+            content wherever you are — on a long flight or the couch at home.
+          </p>
+          <button>
+            <i class="ri-add-line"></i>Learn more about entertainment
+          </button>
+        </div>
+      </div>
+      <div class="page-video" id="page4">
+        <h1>
+          Productivity <br />
+          A workspace with <br />
+          infinite space.
+        </h1>
+        <video src="images and videos/Video-3.mp4" loop muted></video>
+      </div>
+      <div class="page-same">
+        <div class="part">
+          <h3>
+            Discover new ways <br />
+            to work.
+          </h3>
+        </div>
+        <div class="part">
+          <p>
+            Apple Vision Pro gives you limitless space to get things done.
+            Organize everything you need anywhere around you, in any way you
+            like. Seamlessly bring in your Mac workflows using Mac Virtual
+            Display. Connect a Magic Keyboard, a Magic Trackpad, and other
+            Bluetooth accessories to expand how you navigate. And with SharePlay
+            in FaceTime, you can collaborate with colleagues using apps together
+            in real time.
+          </p>
+          <button>
+            <i class="ri-add-line"></i>Learn more about productivity
+          </button>
+        </div>
+      </div>
+      <div class="page-video" id="page5">
+        <h1>
+          Photos and Videos<br />
+          Be in the moment. <br />
+          All over again.
+        </h1>
+        <video src="images and videos/Video-4.mp4" loop muted></video>
+      </div>
+      <div class="page-same" id="extend">
+        <div class="part">
+          <h3>
+            Your memories <br />
+            come alive.
+          </h3>
+        </div>
+        <div class="part">
+          <p>
+            Apple Vision Pro is Apple’s first 3D camera. You can capture magical
+            spatial photos and spatial videos in 3D, then relive those cherished
+            moments like never before with immersive Spatial Audio. Your
+            existing library of photos and videos looks incredible at remarkable
+            scale — and now you can transform your 2D photos into spatial photos
+            with just a tap. Even panoramas wrap around you — making you feel
+            like you’re standing right where you took them. You can also take
+            spatial videos with iPhone 16 Pro, iPhone 16, or iPhone 15 Pro, as
+            well as spatial photos with iPhone 16 Pro or iPhone 16, then view
+            them on Apple Vision Pro.
+          </p>
+          <button>
+            <i class="ri-add-line"></i>Learn more about photos and videos
+          </button>
+        </div>
+      </div>
+      <div class="page-video" id="page6">
+        <h1>
+          Connection<br />
+          Share quality time. <br />
+          And space.
+        </h1>
+        <video src="images and videos/Video-5.mp4" loop muted></video>
+      </div>
+      <div class="page-same">
+        <div class="part">
+          <h3>
+            A more engaging <br />
+            way to get together.
+          </h3>
+        </div>
+        <div class="part">
+          <p>
+            Apple Vision Pro makes it easy to collaborate and connect wherever
+            you are. You can see FaceTime participants in life-size video tiles,
+            or you can choose to use your spatial Persona and feel like you are
+            sharing the same space with others. And use SharePlay to watch,
+            listen, and play together with your favorite people.
+          </p>
+          <button>
+            <i class="ri-add-line"></i>Learn more about connection
+          </button>
+        </div>
+      </div>
+      <div class="page-video" id="page7">
+        <h1>
+          Apps<br />
+          Do what you love.<br />
+          Reimagine how you do it.
+        </h1>
+        <video src="images and videos/Video-6.mp4" loop muted></video>
+      </div>
+      <div class="page-same">
+        <div class="part">
+          <h3>A world of apps.<br />A world of discovery.</h3>
+        </div>
+        <div class="part">
+          <p>
+            Apple Vision Pro expands the experience of your go‑to apps and opens
+            up new possibilities in entertainment, productivity, gaming, and
+            more. Browse the web in Safari, create a to‑do list in Notes, chat
+            in Messages, and seamlessly move between them with a glance. And
+            explore the App Store to discover an ever-expanding collection of
+            awe-inspiring spatial apps designed for Apple Vision Pro.
+          </p>
+          <a href="https://apps.apple.com/us/vision" target="_blank"
+            >Visit the App Store <i class="ri-arrow-right-up-line"></i
+          ></a>
+          <button><i class="ri-add-line"></i>Learn more about apps</button>
+        </div>
+      </div>
+      <div class="page-video" id="page8">
+        <h1>
+          visionOS<br />
+          AN OPERATING SYSTEM <br />
+          DESIGNED FOR SPATIAL.
+        </h1>
+        <video src="images and videos/Video-7.mp4" loop muted></video>
+      </div>
+      <div class="page-same page8">
+        <div class="part">
+          <h3>
+            Navigate spatial <br />experiences. <br />
+            Naturally.
+          </h3>
+        </div>
+        <div class="part">
+          <p>
+            Built on the foundation of macOS, iOS, and iPadOS, visionOS enables
+            powerful spatial experiences. Control Apple Vision Pro with your
+            eyes, hands, and voice — interactions feel intuitive and magical.
+            Simply look at an element, tap your fingers together to select, and
+            use the virtual keyboard or dictation to type. And visionOS 2
+            delivers even more ways to enhance work, entertainment, and
+            connecting with friends and family using Apple Vision Pro.
+          </p>
+          <a href="https://www.apple.com/visionos/visionos-2/" target="_blank"
+            >Learn more about visionOS 2<i class="ri-arrow-right-s-line"></i
+          ></a>
+          <button><i class="ri-add-line"></i>Learn more about visionOS</button>
+        </div>
+      </div>
+      <div id="page9">
+        <h3>Design</h3>
+        <h1>Designed by Apple.</h1>
+        <p>
+          Apple Vision Pro is the result of decades of experience designing
+          high‑performance, mobile, and wearable devices — culminating in the
+          most ambitious product Apple has ever created. Apple Vision Pro
+          integrates incredibly advanced technology into an elegant, compact
+          form, resulting in an amazing experience every time you put it on.
+        </p>
+      </div>
+      <div id="page10">
+        <canvas> </canvas>
+      </div>
+      <div id="page11" class="page-canvas-left">
+        <h3>
+          <span>Front.</span> A singular piece of three-dimensionally formed
+          laminated glass flows into an aluminum alloy frame that curves to wrap
+          around your face.
+        </h3>
+      </div>
+      <div id="page12" class="page-canvas-right">
+        <h3>
+          <span>Light Seal.</span> The Light Seal gently flexes to conform to
+          your face, delivering a precise fit while blocking out stray light.
+        </h3>
+      </div>
+      <div id="page13" class="page-canvas-left">
+        <h3>
+          <span> Head bands.</span> The Solo Knit Band provides cushioning,
+          breathability, and stretch, and a Fit Dial lets you adjust Apple
+          Vision Pro precisely to your head. The Dual Loop Band offers an
+          additional option for a personalized fit.
+        </h3>
+      </div>
+      <div id="page14" class="page-canvas-left">
+        <h3>
+          <span>Power. </span> The external battery supports up to 2 hours of
+          general use and up to 2.5 hours of video playback.
+        </h3>
+      </div>
+      <div id="page15" class="page-canvas-right">
+        <h3>
+          <span>Sound.</span>Speakers positioned close to your ears deliver rich
+          Spatial Audio while keeping you aware of your surroundings.
+        </h3>
+      </div>
+      <div id="page16" class="page-canvas-left">
+        <h3>
+          <span>EyeSight.</span> An outward display reveals your eyes while
+          wearing Apple Vision Pro, letting others know when you are using apps
+          or fully immersed.
+        </h3>
+      </div>
+      <div id="page17">
+        <div class="left17"></div>
+        <div class="right17"></div>
+      </div>
+      <div id="page18">
+        <video
+          src="images and videos/tech-video-1.mp4"
+          autoplay
+          loop
+          muted
+        ></video>
+        <h2>
+          A singular piece of
+          <span>three-dimensionally formed laminated glass</span> acts as an
+          optical surface for the cameras and sensors that view the world. It
+          flows seamlessly into a <span>custom aluminum alloy frame </span>that
+          gently curves to wrap around your face while serving as an attachment
+          point for the <span>Light Seal.</span>
+        </h2>
+        <img src="images and videos/tech-img3.jpg" alt="" />
+        <button><i class="ri-add-line"></i>Learn more about design</button>
+      </div>
+      <div id="page20">
+        <h4>Technology</h4>
+        <h1>Innovation you can see, hear, and feel.</h1>
+        <p>
+          <span>Pushing boundaries from the inside out.</span> Spatial
+          experiences on Apple Vision Pro are only possible through
+          groundbreaking Apple technology. Displays the size of a postage stamp
+          that deliver more pixels than a 4K TV to each eye. Incredible advances
+          in Spatial Audio. A revolutionary dual‑chip design featuring custom
+          Apple silicon. A sophisticated array of cameras and sensors. All the
+          elements work together to create an unprecedented experience you have
+          to see to believe.
+        </p>
+        <canvas> </canvas>
+        <div class="text20">
+          <h2>More pixels than a 4K TV. For each eye.</h2>
+          <h4>
+            The <span>custom micro‑OLED display system</span> features 23
+            million pixels, delivering stunning resolution and colors. And a
+            specially designed three‑element lens creates the feeling of a
+            display that’s everywhere you look.
+          </h4>
+        </div>
+        <div id="Spatial-video">
+          <video
+            src="images and videos/Spatial-video.mp4"
+            autoplay
+            loop
+            muted
+          ></video>
+          <h1>Our most advanced Spatial Audio system ever.</h1>
+          <p>
+            Dual-driver audio pods positioned next to each ear deliver
+            personalized sound while letting you hear what’s around you. <br />
+            <span>Spatial Audio</span> makes sounds feel like they’re coming
+            from your surroundings. Audio ray tracing analyzes your room’s
+            acoustic properties to adapt and match sound to your space. And if
+            you want to use headphones with Apple Vision Pro, <br />
+            AirPods Pro 2 with USB‑C and AirPods 4 offer the perfect experience
+            — featuring Lossless Audio with ultra-low latency, supported by the
+            H2‑to‑H2 connection across devices.
+          </p>
+        </div>
+      </div>
+      <div id="page21">
+        <div class="img-opacity">
+          <img id="eyeon" src="images and videos/eye_tracking_on.jpg" alt="" />
+          <img
+            id="eyeoff"
+            src="images and videos/eye_tracking_off.jpg"
+            alt=""
+          />
+        </div>
+        <div class="text21">
+          <h2>Responsive, precision eye tracking.</h2>
+          <h4>
+            A high‑performance eye‑tracking system of <span>LEDs</span> and
+            <span>infrared cameras</span> projects invisible light patterns onto
+            each eye. This advanced system provides ultraprecise input without
+            your needing to hold any controllers, so you can accurately select
+            elements just by looking at them.
+          </h4>
+        </div>
+        <div class="img-opacity">
+          <img id="five" src="images and videos/sensors_05.jpg" alt="" />
+          <img id="four" src="images and videos/sensors_04.jpg" alt="" />
+          <img id="three" src="images and videos/sensors_03.jpg" alt="" />
+          <img id="two" src="images and videos/sensors_02.jpg" alt="" />
+          <img id="one" src="images and videos/sensors_01.jpg" alt="" />
+        </div>
+        <div class="text21">
+          <h2>A sophisticated sensor array.</h2>
+          <h4>
+            A pair of <span>high-resolution cameras</span> transmit over one
+            billion pixels per second to the displays so you can see the world
+            around you clearly. The system also helps deliver
+            <span>precise head and hand tracking</span> and
+            <span>real‑time 3D mapping</span>, all while understanding your hand
+            gestures from a wide range of positions.
+          </h4>
+        </div>
+        <div id="sensorchip">
+          <img src="images and videos/sensors_chip.jpg" alt="" />
+        </div>
+        <div class="text21" id="text21">
+          <h2>Revolutionary dual‑chip performance.</h2>
+          <h4>
+            A unique dual‑chip design enables the spatial experiences on Apple
+            Vision Pro. The powerful <span>M2</span> chip simultaneously runs
+            visionOS, executes advanced computer vision algorithms, and delivers
+            stunning graphics, all with incredible efficiency. And the brand-new
+            <span>R1</span> chip is specifically dedicated to process input from
+            the cameras, sensors, and microphones, streaming images to the
+            displays within 12 milliseconds — for a virtually lag-free,
+            real-time view of the world.
+          </h4>
+          <button>
+            <i class="ri-add-line"></i>Learn more about technology
+          </button>
+        </div>
+      </div>
+      <div id="page22">
+        <h3><span>Values</span></h3>
+        <h1>Designed to make a difference.</h1>
+        <h3>
+          <span>Our values lead the way. </span>Apple Vision Pro was designed to
+          help protect your privacy and keep you in control of your data. Its
+          built‑in accessibility features are designed to work the way you do.
+        </h3>
+        <button><i class="ri-add-line"></i>Learn more about our values</button>
+      </div>
+      <div id="page23">
+        <div class="page23-1">
+          <div class="textbox23">
+            <img
+              src="images and videos/ar_logo__bmtaba6ckk76_large.png"
+              alt=""
+            />
+            <h1>Use AR to view Apple Vision Pro.</h1>
+            <h3>Open this page using Safari on your iPhone or iPad.</h3>
+          </div>
+          <div id="imgbox23-1">
+            <img src="images and videos/obj-01.jpg" alt="" />
+          </div>
+        </div>
+        <div class="page23-1">
+          <div class="textbox23">
+            <h1>
+              Explore <br />
+              Apple Vision Pro accessories.
+            </h1>
+            <a
+              href="https://www.apple.com/shop/vision/accessories"
+              target="_blank"
+              >Shop <i class="ri-arrow-right-s-line"></i
+            ></a>
+          </div>
+          <div id="imgbox23-2">
+            <img src="images and videos/obj-02.jpg" alt="" />
+          </div>
+        </div>
+        <div id="page23-1">
+          <img src="images and videos/obj-03.png" alt="" />
+          <h1>
+            An all‑new platform. <br />
+            An all‑new world for developers.
+          </h1>
+          <h3>
+            The possibilities for what developers can dream up and build for
+            Apple Vision Pro are endless. And with familiar tools and frameworks
+            like Xcode, SwiftUI, RealityKit, and ARKit, as well as support for
+            Unity and the 3D-content preparation app Reality Composer Pro,
+            developers have everything they need to create amazing spatial
+            experiences.
+          </h3>
+          <a href="https://developer.apple.com/visionos/" target="_blank"
+            >Learn more about developing for visionOS
+            <i class="ri-arrow-right-up-line"></i
+          ></a>
+        </div>
+      </div>
+      <div id="page24">
+        <div id="footer1">
+          <ol>
+            <li>
+              Testing conducted by Apple in November 2023 using preproduction
+              Apple Vision Pro units and software. Testing consisted of full
+              battery discharge while performing each of the following tasks:
+              video playback, internet browsing, spatial video capture, and
+              FaceTime. Video playback tested in conjunction with an
+              Environment, using 2D movie content purchased from the Apple TV
+              app. Internet browsing tested using 20 popular websites. FaceTime
+              tested between two Apple Vision Pro units with Personas enabled.
+              Tested with Wi-Fi associated to a network. Battery life depends on
+              device settings, usage, network, environmental conditions, and
+              many other factors. Battery tests are conducted using specific
+              Apple Vision Pro units; actual results may vary.
+            </li>
+            <li>
+              Valid prescription required. Not all prescriptions are supported.
+              Vision correction accessories are sold separately.
+            </li>
+          </ol>
+          <h5>
+            © 2023 TAKE-TWO INTERACTIVE SOFTWARE INC. All Rights Reserved.
+          </h5>
+          <h5>
+            © 2023 NBA Properties, Inc. All Rights Reserved. Officially Licensed
+            Product of the National Basketball Association.
+          </h5>
+          <h5>Some Apple Vision Pro titles coming later.</h5>
+          <h5>
+            A subscription may be required for some services. Not all content
+            may be available in all areas.
+          </h5>
+          <h5>Disney+ subscription required.</h5>
+          <h5>
+            Avatar: The Way of Water © 2022 20th Century Studios and TSG
+            Entertainment Finance LLC.
+          </h5>
+          <h5>Users must be 13 years or older.</h5>
+          <h5>
+            Available in the U.S. on
+            <a href="https://www.apple.com/" target="_blank">apple.com</a>, in the Apple Store
+            app, and at Apple Stores.
+          </h5>
+          <hr />
+        </div>
+        <div id="footer2">
+          <a href="https://www.apple.com/" target="_blank">
+            <img src="images and videos/icon.svg" alt=""/>
+          </a>
+          <i class="ri-arrow-right-s-line"></i>
+          <h4>Apple Vision Pro</h4>
+        </div>
+        <div id="footer3">
+          <div class="column">
+            <div class="col">
+              <h5>Shop and Learn</h5>
+              <a href="https://www.apple.com/us/shop/goto/store" target="_blank">Store</a>
+              <a href="https://www.apple.com/mac/" target="_blank">Mac</a>
+              <a href="https://www.apple.com/ipad/" target="_blank">iPad</a>
+              <a href="https://www.apple.com/iphone/" target="_blank">iPhone</a>
+              <a href="https://www.apple.com/watch/" target="_blank">Watch</a>
+              <a href="https://www.apple.com/apple-vision-pro/" target="_blank">Vision</a>
+              <a href="https://www.apple.com/airpods/" target="_blank">AirPods</a>
+              <a href="https://www.apple.com/tv-home/" target="_blank">TV & Home</a>
+              <a href="https://www.apple.com/airtag/" target="_blank">AirTag</a>
+              <a href="https://www.apple.com/us/shop/goto/buy_accessories" target="_blank">Accessories</a>
+              <a href="https://www.apple.com/us/shop/goto/giftcards" target="_blank">Gift Cards</a>
+            </div>
+            <div class="col">
+              <h5>Apple Wallet</h5>
+              <a href="https://www.apple.com/wallet/" target="_blank">Wallet</a>
+              <a href="https://www.apple.com/apple-card/" target="_blank">Apple Card</a>
+              <a href="https://www.apple.com/apple-pay/" target="_blank">Apple Pay</a>
+              <a href="https://www.apple.com/apple-cash/" target="_blank">Apple Cash</a>
+            </div>
+          </div>
+          <div class="column">
+            <div class="col">
+              <h5>Account</h5>
+              <a href="https://account.apple.com/" target="_blank">Manage Your Apple Account</a>
+              <a href="https://www.apple.com/us/shop/goto/account" target="_blank">Apple Store Account</a>
+              <a href="https://www.icloud.com/" target="_blank">iCloud.com</a>
+            </div>
+            <div class="col">
+              <h5>Entertainment</h5>
+              <a href="https://www.apple.com/apple-one/" target="_blank">Apple One</a>
+              <a href="https://www.apple.com/apple-tv-plus/" target="_blank">Apple TV+</a>
+              <a href="https://www.apple.com/apple-music/" target="_blank">Apple Music</a>              
+              <a href="https://www.apple.com/apple-arcade/" target="_blank">Apple Arcade</a>
+              <a href="https://www.apple.com/apple-fitness-plus/" target="_blank">Apple Fitness+</a>
+              <a href="https://www.apple.com/apple-news/" target="_blank">Apple News+</a>
+              <a href="https://www.apple.com/apple-podcasts/" target="_blank">Apple Podcasts</a>
+              <a href="https://www.apple.com/apple-books/" target="_blank">Apple Books</a>
+              <a href="https://www.apple.com/app-store/" target="_blank">App Store</a>
+            </div>
+          </div>
+          <div class="column col">
+            <h5>Apple Store</h5>
+            <a href="https://www.apple.com/retail/" target="_blank">Find a Store</a>
+            <a href="https://www.apple.com/retail/geniusbar/" target="_blank">Genius Bar</a>
+            <a href="https://www.apple.com/today/" target="_blank">Today at Apple</a>
+            <a href="https://www.apple.com/today/groups/" target="_blank">Group Reservations</a>
+            <a href="https://www.apple.com/today/camp/" target="_blank">Apple Camp</a>
+            <a href="https://apps.apple.com/us/app/apple-store/id375380948" target="_blank">Apple Store App</a>
+            <a href="https://www.apple.com/us/shop/goto/special_deals" target="_blank">Certified Refurbished</a>
+            <a href="https://www.apple.com/us/shop/goto/trade_in" target="_blank">Apple Trade in</a>
+            <a href="https://www.apple.com/us/shop/goto/payment_plan" target="_blank">Financing</a>
+            <a href="https://www.apple.com/us/shop/goto/buy_iphone/carrier_offers" target="_blank">Carrier Deals at Apple</a>
+            <a href="https://www.apple.com/us/shop/goto/order/list" target="_blank">Order Status</a>
+            <a href="https://www.apple.com/us/shop/goto/help" target="_blank">Shopping Help</a>
+          </div>
+          <div class="column">
+            <div class="col">
+              <h5>For Business</h5>
+              <a href="https://www.apple.com/business/" target="_blank">Apple and Business</a>
+              <a href="https://www.apple.com/retail/business/" target="_blank">Shop for Business</a>
+            </div>
+            <div class="col">
+              <h5>For Education</h5>
+              <a href="https://www.apple.com/education/" target="_blank">Apple and Education</a>
+              <a href="https://www.apple.com/education/k12/how-to-buy/" target="_blank">Shop for K-12</a>
+              <a href="https://www.apple.com/us/shop/goto/educationrouting" target="_blank">Shop for College</a>
+            </div>
+            <div class="col">
+              <h5>For Healthcare</h5>
+              <a href="https://www.apple.com/healthcare/" target="_blank">Apple in Healthcare</a>
+              <a href="https://www.apple.com/healthcare/mac/" target="_blank">Mac in Healthcare</a>
+              <a href="https://www.apple.com/healthcare/apple-watch/">Health on Apple Watch</a>
+              <a href="https://www.apple.com/healthcare/health-records/" target="_blank">Health Records on iPhone and iPad</a>
+            </div>
+            <div class="col">
+              <h5>For Government</h5>
+              <a href="https://www.apple.com/r/store/government/" target="_blank">Shop for Government</a>
+              <a href="https://www.apple.com/us/shop/goto/eppstore/veteransandmilitary" target="_blank">Shop for Veterans and Military</a>
+            </div>
+          </div>
+          <div class="column">
+            <div class="col">
+              <h5>Apple Values</h5>
+              <a href="https://www.apple.com/accessibility/" target="_blank">Accessibility</a>
+              <a href="https://www.apple.com/education-initiative/" target="_blank">Education</a>
+              <a href="https://www.apple.com/environment/" target="_blank">Environment</a>
+              <a href="https://www.apple.com/diversity/" target="_blank">Inclusion and Diversity</a>
+              <a href="https://www.apple.com/privacy/" target="_blank">Privacy</a>
+              <a href="https://www.apple.com/racial-equity-justice-initiative/" target="_blank">Racial Equity and Justice</a>
+              <a href="https://www.apple.com/supply-chain/" target="_blank">Supply Chain</a>
+            </div>
+            <div class="col">
+              <h5>About Apple</h5>
+              <a href="https://www.apple.com/newsroom/" target="_blank">Newsroom</a>
+              <a href="https://www.apple.com/leadership/" target="_blank">Apple Leadership</a>
+              <a href="https://www.apple.com/careers/us/" target="_blank">Career Oppourtunities</a>
+              <a href="https://investor.apple.com/" target="_blank">Investors</a>
+              <a href="https://www.apple.com/compliance/" target="_blank">Ethics & Compliance</a>
+              <a href="https://www.apple.com/apple-events/" target="_blank">Events</a>
+              <a href="https://www.apple.com/contact/" target="_blank">Contact Apple</a>
+            </div>
+          </div>
+        </div>
+        <div id="footer4">
+          <h5>More ways to shop: <a href="https://www.apple.com/retail/" target="_blank">Find an Apple Store</a>  or 
+           <a href="https://locate.apple.com/" target="_blank">other retailer</a>  near you. Or call 1-800-MY-APPLE.</h5>
+          <hr/>
+        </div>
+        <div id="footer5">
+          <div id="lastone">
+            <h5>Copyright © 2024 Apple Inc. All rights reserved.</h5>
+            <h5>
+              <a href="https://www.apple.com/choose-country-region/" target="_blank">United States</a>
+            </h5>
+          </div>
+          <div id="final">
+            <h5>
+              <a href="https://www.apple.com/legal/privacy/" target="_blank">Privacy Policy</a> |
+              <a href="https://www.apple.com/legal/internet-services/terms/site.html" target="_blank">Terms of Use</a>|
+              <a href="https://www.apple.com/us/shop/goto/help/sales_refunds" target="_blank">Sales and Refunds</a>|
+              <a href="https://www.apple.com/legal/" target="_blank">Legal</a>|
+              <a href="https://www.apple.com/sitemap/" target="_blank">Site Map</a>
+            </h5>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+      integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+      integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
